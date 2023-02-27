@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+AMM contracts with test cases and rest api end points for creating an AMM,adding/removing liquidity, token swap and getter end points.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+AMM are automated market makers.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+This AMM follows constant product function, xy=k formula where x and y are respective token A and token B's liquidity in the pool.
